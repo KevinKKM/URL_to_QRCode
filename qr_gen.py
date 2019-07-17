@@ -6,7 +6,7 @@ Directory = ".//QRCode_Dir//"
 
 #Called function, looping the URL, and change it into QR code format, and store into the QRCode_Dir directory, no return
 def Url_To_QR(filename):
-	f = open("url_list.txt","r")
+	f = open(filename,"r")
 	index = 0
 	for line in f.readlines():
 		cur_url = line.split("\n")[0]
