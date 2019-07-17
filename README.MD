@@ -1,5 +1,5 @@
 <h1>URL to QR code generator</h1>
-##  ##
+
 To install this program, please make sure you have those following library:
 <BR> - pyqrcode
 <BR> - pypng
